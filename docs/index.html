@@ -1044,8 +1044,22 @@ if let Some(idx) = active_idx {
     println!("Selected: {}", item.active_variant().title);
 }</pre>
 
-      <div class="instructions">
+      <div class="instructions" style="margin-bottom: 1rem;">
         💡 <strong>Tip:</strong> Move mouse around center to inspect deadzone and sectors. Use <strong>Mouse Scroll Wheel</strong> or arrow keys to cycle weapons/variants inside any highlighted slot.
+      </div>
+
+      <div class="stat-card" style="border-left: 3px solid #10b981; font-size: 0.82rem;">
+        <div style="font-weight: 700; color: #f3f4f6; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em;">
+          Performance Benchmarks (vs Lua/CEF)
+        </div>
+        <div class="stat-row"><span class="stat-label">8-Slot Polar Select:</span><span class="stat-val" style="color: #10b981;">22.82 ns (43.8M/s)</span></div>
+        <div class="stat-row"><span class="stat-label">FiveM Lua / CEF:</span><span class="stat-val" style="color: #94a3b8;">~2-5 ms (&gt;100,000×)</span></div>
+        <div class="stat-row"><span class="stat-label">Angle Spring Step:</span><span class="stat-val" style="color: #f59e0b;">27.98 ns (35.7M/s)</span></div>
+        <div class="stat-row"><span class="stat-label">Gamepad Stick Norm:</span><span class="stat-val" style="color: #3b82f6;">16.44 ns (60.8M/s)</span></div>
+        <div class="stat-row"><span class="stat-label">Sub-Item Variant Cycle:</span><span class="stat-val" style="color: #10b981;">2.58 ns (387M/s)</span></div>
+        <div style="border-top: 1px solid var(--border); padding-top: 0.5rem; margin-top: 0.4rem; text-align: right;">
+          <a href="https://github.com/bhubbard/radial-menu-rs/blob/main/BENCHMARKS.md" target="_blank" style="color: #f59e0b; text-decoration: none; font-weight: 600; font-size: 0.75rem;">View Full Benchmarks Report &rarr;</a>
+        </div>
       </div>
     </aside>
 
