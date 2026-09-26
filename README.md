@@ -1,13 +1,13 @@
 # radial-menu-rs
 
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://bhubbard.github.io/radial-menu-rs/)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://code.brandonhubbard.com/radial-menu-rs/)
 [![Crates.io](https://img.shields.io/badge/crates.io-v0.1.0-orange.svg)](https://crates.io)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](#license)
 [![Rust: 2024 Edition](https://img.shields.io/badge/Rust-2024%20Edition-black?logo=rust)](https://www.rust-lang.org)
 
 > Pure Rust radial menu and weapon wheel system with angle math, deadzone filtering, sub-item tier support, and physics-based spring animations. Ported and modernized from `Xenobyte/RadialMenu`.
 
-Interactive Simulator Demo: **[bhubbard.github.io/radial-menu-rs](https://bhubbard.github.io/radial-menu-rs/)**
+Interactive Simulator Demo: **[code.brandonhubbard.com/radial-menu-rs](https://code.brandonhubbard.com/radial-menu-rs/)**
 
 ---
 
@@ -100,7 +100,7 @@ if !input.is_neutral {
 
 ## Interactive Weapon Wheel Simulator
 
-Experience the live simulator at [bhubbard.github.io/radial-menu-rs](https://bhubbard.github.io/radial-menu-rs/):
+Experience the live simulator at [code.brandonhubbard.com/radial-menu-rs](https://code.brandonhubbard.com/radial-menu-rs/):
 - **8-Slot GTA V Weapon Wheel**: Full mouse and joystick radial tracking.
 - **Deadzone Visualization**: Live visual threshold feedback for neutral state.
 - **Spring Pop Physics**: Animated hover expansion with damping.
