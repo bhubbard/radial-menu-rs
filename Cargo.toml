@@ -1,6 +1,6 @@
 [package]
 name = "radial-menu-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Brandon Hubbard"]
 description = "Pure Rust radial menu and weapon wheel system with angle math, deadzone filtering, and easing animations"
